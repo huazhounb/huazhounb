@@ -1,4 +1,4 @@
-# Welcome to my homepage 👋
+# <h1 align="center">Welcome to my homepage 👋</h1>
 <img src="/src/header_.png">
 <div align="center">
   <div>
