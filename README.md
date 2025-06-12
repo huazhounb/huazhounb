@@ -1,35 +1,26 @@
-## Hi there 👋
+# Welcome to my homepage 👋
 <img src="/src/header_.png">
-# .github/workflows/update-readme.yml
-name: Update README
+<div align="center">
+  <div>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=console.log(%22Hello%2C%20World%22);&center=true&size=27" />
+  </div>
+  <div>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=600&lines=System.out.println(%22Hello%2C%20World%22);&center=true&size=27" />
+  </div>
+</div>
+<div align="center">
+<img width="120" src="https://github.com/1321928757/static-resources/blob/main/cxyduck.gif?raw=true" />
+<img  src="" align="center" height="200" width="200" />
+<img width="120" src="https://github.com/1321928757/static-resources/blob/main/cxyduck.gif?raw=true" />
+</div> 
 
-on:
-  schedule:
-    # 每小时执行一次 (UTC时间)
-    - cron: '0 * * * *'
-  workflow_dispatch: # 允许手动触发
+## 目前大一
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      
-      - name: Update README
-        run: |
-          # 获取当前时间
-          current_time=$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S')
-          
-          # 更新 README.md 中的时间
-          sed -i "s/<!-- TIME_PLACEHOLDER -->.*/<!-- TIME_PLACEHOLDER -->**Last updated:** $current_time (GMT+8)/" README.md
-          
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --staged --quiet || git commit -m "🕐 Auto update time: $(date)"
-          git push
+- 💻**后端**：C/C++
+- 📝**前端**：HTML，CSS，JS,VUE3
+- 💼**数据库**：准备学习MySQL，
+<p align="center">正在学git以及github</p>
+<p align="center">✨目标是成为一名优秀的全栈工程师✨</p>
 <!--
 **huazhounb/huazhounb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
