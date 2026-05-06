@@ -1,0 +1,73 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="huazhounb AI application full stack banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#10223f"/>
+      <stop offset="1" stop-color="#241343"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="180" y1="90" x2="1010" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D9FF"/>
+      <stop offset="0.55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.75 0 0 0 0 1 0 0 0 0.55 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .grid { stroke: rgba(255,255,255,.08); stroke-width: 1; }
+      .orbit { animation: orbit 7s linear infinite; transform-origin: 600px 178px; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      .float { animation: float 4s ease-in-out infinite; }
+      .dash { stroke-dasharray: 18 14; animation: dash 18s linear infinite; }
+      @keyframes orbit { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.05); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+      @keyframes dash { to { stroke-dashoffset: -260; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g opacity=".45">
+    <path class="grid" d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200M0 300H1200"/>
+    <path class="grid" d="M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360M640 0V360M720 0V360M800 0V360M880 0V360M960 0V360M1040 0V360M1120 0V360"/>
+  </g>
+
+  <circle cx="1020" cy="70" r="130" fill="#00D9FF" opacity=".08"/>
+  <circle cx="150" cy="300" r="150" fill="#7C3AED" opacity=".12"/>
+
+  <g class="orbit" opacity=".8">
+    <ellipse cx="600" cy="178" rx="248" ry="72" stroke="url(#neon)" stroke-width="2" class="dash"/>
+    <ellipse cx="600" cy="178" rx="72" ry="248" stroke="url(#neon)" stroke-width="2" class="dash"/>
+  </g>
+
+  <g filter="url(#glow)" class="pulse">
+    <circle cx="600" cy="178" r="54" fill="#07111F" stroke="url(#neon)" stroke-width="5"/>
+    <path d="M575 178c0-16 10-29 25-29s25 13 25 29-10 29-25 29-25-13-25-29Z" fill="#00D9FF" opacity=".25"/>
+    <path d="M600 142v72M564 178h72M574 153l52 50M626 153l-52 50" stroke="#EAFBFF" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g class="float">
+    <rect x="92" y="82" width="210" height="58" rx="18" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="118" y="118" fill="#EAFBFF" font-family="Consolas, monospace" font-size="22">Vue + TS</text>
+  </g>
+  <g class="float" style="animation-delay:-1.3s">
+    <rect x="890" y="94" width="220" height="58" rx="18" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="916" y="130" fill="#EAFBFF" font-family="Consolas, monospace" font-size="22">Node API</text>
+  </g>
+  <g class="float" style="animation-delay:-2s">
+    <rect x="120" y="228" width="250" height="58" rx="18" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="146" y="264" fill="#EAFBFF" font-family="Consolas, monospace" font-size="22">RAG / Agent</text>
+  </g>
+  <g class="float" style="animation-delay:-.7s">
+    <rect x="850" y="226" width="260" height="58" rx="18" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.16)"/>
+    <text x="876" y="262" fill="#EAFBFF" font-family="Consolas, monospace" font-size="22">Supabase</text>
+  </g>
+
+  <text x="600" y="72" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="800">huazhounb</text>
+  <text x="600" y="296" text-anchor="middle" fill="#C7D2FE" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">AI Application Full Stack Intern</text>
+</svg>
