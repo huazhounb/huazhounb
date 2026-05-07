@@ -2,22 +2,74 @@
 
 <img src="./assets/profile-banner.svg" alt="huazhounb AI application full stack banner" width="100%" />
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=800&color=00D9FF&center=true&vCenter=true&width=780&lines=Hi%2C+I'm+huazhounb;AI+%E5%BA%94%E7%94%A8%E5%85%A8%E6%A0%88%E5%AE%9E%E4%B9%A0%E6%96%B9%E5%90%91;Vue+%2F+Node.js+%2F+Supabase+%2F+Netlify;Build+usable+AI-powered+Web+Apps)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2600&pause=800&color=00D9FF&center=true&vCenter=true&width=820&lines=Hi%2C+I'm+huazhounb;AI+%E5%BA%94%E7%94%A8+%2F+%E5%89%8D%E7%AB%AF+%2F+%E5%85%A8%E6%A0%88%E5%AE%9E%E4%B9%A0%E6%96%B9%E5%90%91;Vue+3+%2B+TypeScript+%2B+Node.js;Building+usable+AI-powered+Web+Apps)
 
 </div>
 
-## 👋 关于我
+## 关于我
 
-你好，我是 **huazhounb**，一名计算机专业大二学生，正在准备 **AI 应用全栈 / 前端开发实习**。
+你好，我是 **huazhounb**，计算机专业学生，当前重点准备 **AI 应用 / 前端 / Web 全栈实习**。
 
-我目前的主线是：用 **Vue 3 + TypeScript + Node.js + Supabase + Netlify** 做能上线、能展示、能解决实际问题的 AI 应用，而不是停留在只看教程或只写 Demo。
+我正在把学习重心从“会写功能”推进到“能做完整产品”：用 **Vue 3 + TypeScript + Node.js + Supabase + Netlify** 构建可以上线、可以展示、可以写进简历并在面试中讲清楚的 AI 应用。
 
-- 🎯 求职方向：AI 应用全栈实习 / 前端开发实习生（AI 应用方向）
-- 🧩 当前技术栈：Vue、TypeScript、Node.js、Supabase、GitHub、Netlify
-- 🤖 AI 应用方向：Prompt、Streaming、Structured Output、Tool Calling、RAG
-- 🚀 目标：做出 2 个可部署、可讲清楚、可写进简历的 AI 项目
+- 求职方向：前端开发实习生、AI 应用开发实习生、Web 全栈实习生
+- 当前主线：AI 实习求职助手 + 个人 RAG 知识库
+- 技术关键词：Vue 3、TypeScript、Node.js、Express、Supabase、PostgreSQL、Netlify
+- AI 应用关键词：Prompt、Streaming、Structured Output、Tool Calling、RAG、Embeddings
 
-## 🧰 技术栈
+## 重点项目
+
+### 1. AI 实习求职助手
+
+**状态：开发中 / 作为主项目打磨**
+
+面向实习投递场景的 AI 应用，目标是帮助用户把岗位 JD、个人技能、简历内容和面试准备串成一个完整工作流。
+
+核心功能：
+
+- 岗位 JD 分析：提取岗位职责、硬技能、加分项和匹配程度
+- 技能差距分析：对比个人技能和岗位要求，输出优先补齐清单
+- 简历优化建议：根据目标岗位给出更具体的项目描述和修改方向
+- 面试题生成：围绕岗位要求生成问题、参考回答和复习重点
+- 历史记录保存：使用 Supabase 保存分析记录，方便复盘和迭代
+- AI 体验优化：支持流式输出、结构化结果展示、loading、重试和错误提示
+
+技术栈：
+
+`Vue 3` · `TypeScript` · `Vite` · `Node.js` · `Express` · `Supabase` · `OpenAI API` · `Netlify`
+
+项目展示：
+
+- Online Demo：整理中
+- Repository：整理中
+- README / Screenshots：持续补充中
+
+### 2. 个人 RAG 知识库
+
+**状态：规划中 / 作为 AI 能力展示模块**
+
+把学习笔记、岗位要求和项目文档整理成可检索知识库，让 AI 基于自己的资料回答问题，重点展示 RAG 的完整应用链路。
+
+核心功能：
+
+- 文档录入：支持 Markdown / 学习笔记内容整理
+- 文本切片：把长文本拆成适合检索的小片段
+- 向量化：通过 Embeddings 将文本转换为向量
+- 向量检索：使用 Supabase PostgreSQL + pgvector 做相似度搜索
+- 基于资料回答：先检索相关内容，再让模型生成答案
+- 引用展示：回答中展示来源片段，减少模型胡说
+
+技术栈：
+
+`Vue 3` · `TypeScript` · `Node.js` · `Supabase PostgreSQL` · `pgvector` · `Embeddings` · `RAG`
+
+项目展示：
+
+- Online Demo：规划中
+- Repository：规划中
+- README / Architecture：整理中
+
+## 技术栈
 
 <div align="center">
   <img src="./assets/ai-stack.svg" alt="AI application stack diagram" width="100%" />
@@ -47,48 +99,24 @@
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=for-the-badge&logo=openai&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-0A0A0A?style=for-the-badge&logo=openai&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-7C3AED?style=for-the-badge)
+![Embeddings](https://img.shields.io/badge/Embeddings-22C55E?style=for-the-badge)
 ![Tool Calling](https://img.shields.io/badge/Tool_Calling-00D9FF?style=for-the-badge)
 ![Agent](https://img.shields.io/badge/Agent-FF6B6B?style=for-the-badge)
 
-## 📌 正在学习
+## 当前路线
 
-```txt
-TypeScript 深化        ████████░░  80%
-Vue 3 工程化           ████████░░  80%
-Node.js API            ███████░░░  70%
-Supabase / PostgreSQL  ██████░░░░  60%
-AI Streaming           ██████░░░░  60%
-RAG / Embeddings       █████░░░░░  50%
-Tool Calling / Agent   ████░░░░░░  40%
+```mermaid
+flowchart LR
+  A["Vue 3 + TypeScript"] --> B["Node.js / Express API"]
+  B --> C["AI API / Streaming"]
+  C --> D["Structured Output"]
+  D --> E["Supabase History"]
+  E --> F["Embeddings"]
+  F --> G["RAG / Vector Search"]
+  G --> H["Online AI Projects"]
 ```
 
-## 🚀 重点项目规划
-
-### 1. AI 简历 / 求职助手
-
-> 开发中：面向实习求职场景的 AI 应用，帮助分析岗位 JD、生成技能差距、润色简历、生成面试题。
-
-技术路线：
-
-- Vue 3 + TypeScript 构建交互界面
-- Node.js 后端封装大模型 API
-- Supabase 保存岗位分析和历史记录
-- 支持流式输出、结构化结果展示、错误提示
-- Netlify 部署前端，后端使用云服务部署
-
-### 2. 个人知识库问答系统
-
-> 规划中：将学习资料、岗位要求、项目笔记整理成可检索知识库，通过 RAG 进行问答。
-
-技术路线：
-
-- 文本切片与 Embeddings
-- Supabase pgvector 向量检索
-- RAG 回答并展示引用来源
-- 支持学习资料持续更新
-- 用于复习、面试准备和项目沉淀
-
-## 📊 GitHub 数据
+## GitHub 数据
 
 <div align="center">
 
@@ -101,20 +129,7 @@ Tool Calling / Agent   ████░░░░░░  40%
 
 </div>
 
-## 🗺️ 学习路线
-
-```mermaid
-flowchart LR
-  A["Vue 3 + TypeScript"] --> B["Node.js API"]
-  B --> C["Supabase / PostgreSQL"]
-  C --> D["AI API / Streaming"]
-  D --> E["Structured Output"]
-  E --> F["Tool Calling"]
-  F --> G["RAG / Vector Search"]
-  G --> H["AI 应用项目上线"]
-```
-
-## 📫 联系我
+## 联系我
 
 <div align="center">
 
